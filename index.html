@@ -2,22 +2,27 @@
 <html lang="en"> 
 <head>
   <meta charset="UTF-8"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,800i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="style.css">
   <title>DLK</title>
 </head>
   <body>
-    <header class="main-header">
+    <header class="main-header container">
       <a href="#">
-        <img class="header-logo" src="logo.png" alt="logo">
+        <img class="header-logo" src="pictures/DLK.png" alt="logo">
        </a>
       <nav class="site-nav">
-        <ul>
+        <ul class="list-point-type"> 
          <li><a class="nav-item" href="#">Blog</a></li>
          <li><a class="nav-item" href="#">Catalog</a></li>
          <li><a class="nav-item" href="#">About Us</a></li>
         </ul>
-        <ul>
+        <ul class="list-point-type-conact">
+          <img class="navi-item" src="pictures/XMLID 1397.png" alt="search">
          <li><a class="nav-item" href="#">Search</a></li>
-         <li><a class="nav-item" href="#">Contact Us</a></li>
+         <li><a class="nav-item-contact" href="#">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -26,23 +31,23 @@
       <h2 class="poster-title">THE OOH NOO <br> COLLECTION</h2>      
         <p>
         Designed in Slovenia
-        </p>      
+        </p>   
       <a class="poster-link pourple-link" href="#"> EXPLORE NOW </a>
     </section>
     <section class="categore-products">
       <h3 class="category-title"> Category Products </h3>
       <ul>
         <li> 
-          <img class="category" src="APPAREL-KIDS.png" alt="APPAREL KIDS">
+          <img class="category" src="pictures/APPAREL KIDS.png" alt="APPAREL KIDS">
         </li>
         <li>
-          <img class="category" src="HOLIDAY-SHOP.png" alt="HOLIDAY SHOP">
+          <img class="category" src="pictures/HOLIDAY SHOP.png" alt="HOLIDAY SHOP">
         </li>
         <li>
-          <img class="category" src="TOYS.png" alt="TOYS">
+          <img class="category" src="pictures/TOYS.png" alt="TOYS">
         </li>
         <li>
-          <img class="category" src="ACCESSORIES.png" alt="ACCESSORIES">
+          <img class="category" src="pictures/ACCESSORIES.png" alt="ACCESSORIES">
         </li>
       </ul>
       <button>
@@ -56,11 +61,11 @@
       </p>
     </section>
     <section class="about purchase">
-      <img src="woman.png" alt="woman">
+      <img src="pictures/woman.png" alt="woman">
       <h3 class="delivery-title"> Delivery</h3>
-      <button type="submit"> delivery </button>
-      <button type="submit"> guarantee   </button>
-      <button type="submit"> credit  </button>
+      <button > delivery </button>
+      <button > guarantee   </button>
+      <button > credit  </button>
             <p>
         Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.
          What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!
@@ -77,7 +82,7 @@
       </ul>
       </section>
       <section class="design-Life-kids">
-       <h3 class="design-Life-kids"> Design Life Kids </h3>
+       <h1 class="design-Life-kids"> Design Life Kids </h1>
        <a class="about-Us" href="#">About Us</a>
        <p>
         Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.
@@ -89,7 +94,7 @@
       <h2 class="contacts">Contacts</h2>
       <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely
         shocked that four years have flown by. It's simply magical.</p>
-      <img class="map-image" src="карта.png" alt="map">
+      <img class="map-image" src="pictures/map.png" alt="map">
       </section>
      </main> 
 
@@ -110,11 +115,36 @@
            
            
           </nav>
-          <button>   <img src="Company-Rating" alt="stars">          </button>
-          <button>   <img src="Company-Rating" alt="stars">          </button>
-          <button>   <img src="Company-Rating" alt="stars">          </button>
-          <button>   <img src="Company-Rating" alt="stars">          </button>
-          <button>   <img src="Company-Rating" alt="stars">          </button>
+          <div class="rating">
+            <p class="rating-title">Company Rating</p>
+            <ul class="rating-buttons">
+              <li>
+                <button class="rating-button">
+                <img class="image-star" src="images/star.svg" alt="star">
+                </button>
+              </li>
+              <li>
+                <button class="rating-button">
+                <img class="image-star" src="images/star.svg" alt="star">
+                </button>
+              </li>
+              <li>
+                <button class="rating-button">
+                <img class="image-star" src="images/star.svg" alt="star">
+                </button>
+              </li>
+              <li>
+                <button class="rating-button">
+                <img class="image-star" src="images/star.svg" alt="star">
+                </button>
+              </li>
+              <li>
+                <button class="rating-button">
+                <img class="image-star" src="images/star.svg" alt="star">
+                </button>
+              </li>
+            </ul>
+           </div>
         </section>
         
        <section>

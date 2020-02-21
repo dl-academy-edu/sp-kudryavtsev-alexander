@@ -1,0 +1,80 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+ margin: 0; 
+}
+
+
+a {
+     text-decoration: none; 
+    }
+
+html { 
+    box-sizing: border-box; 
+}
+
+*, *::before, *::after { 
+    box-sizing: inherit; 
+}
+
+img {
+     max-width: 100%;
+     }
+
+    
+
+     /* haeder */
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+.header-logo {
+
+    color: #1E0606;
+}
+
+.nav-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}    
+
+.nav-item-contact {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}
+.pourple-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.poster-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+
+}

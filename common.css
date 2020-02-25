@@ -1,5 +1,5 @@
 body { 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
  margin: 0; 
 }
 
@@ -18,23 +18,71 @@ html {
 
 img {
      max-width: 100%;
+
      }
 
+.header-list-link {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 60px;
+}    
+
+
+
     
+
 
      /* haeder */
 
 
 
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    padding: 50px 20px;
+    
+}
+.header {
+    display: flex;
+    
+    
+    
+}
+.header-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-list-link {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-link-conact {
+    display: flex;
+    align-items: center;
+    
+    
+    
+   
+    
+    
+    }
+
+    
+.nav-item-contact{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.search-contact {
+    display: flex;
     
 
-    
-
-
-
-
-
-
+}
 
 
 .header-logo {
@@ -48,6 +96,7 @@ img {
     font-size: 14px;
     line-height: 19px;
     color: #1E0606;
+    margin-right: 15px;
 }    
 
 .nav-item-contact {
@@ -59,6 +108,7 @@ img {
     line-height: 19px;
     color: #1E0606;
 }
+   
 .pourple-link {
     font-family: Open Sans;
     font-style: normal;
@@ -70,11 +120,17 @@ img {
 }
 
 .poster-title {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 110%;
     color: #1E0606;
 
+}
+.partners-list {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
 }

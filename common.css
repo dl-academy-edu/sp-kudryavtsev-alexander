@@ -1,17 +1,15 @@
 body { 
+    
     font-family: 'Open Sans', 'sans-serif';
  margin: 0; 
 }
 
-
 a {
      text-decoration: none; 
     }
-
 html { 
     box-sizing: border-box; 
 }
-
 *, *::before, *::after { 
     box-sizing: inherit; 
 }
@@ -29,7 +27,7 @@ img {
 
 
 
-    
+
 
 
      /* haeder */
@@ -41,14 +39,16 @@ img {
     width: 100%;
     max-width: 1220px;
     padding: 50px 20px;
-    
+
+
 }
 .header {
     display: flex;
-    
-    
-    
+
+
+
 }
+
 .header-nav {
     display: flex;
     width: 100%;
@@ -63,15 +63,15 @@ img {
 .header-list-link-conact {
     display: flex;
     align-items: center;
-    
-    
-    
-   
-    
-    
+
+
+
+
+
+
     }
 
-    
+
 .nav-item-contact{
     display: flex;
     align-items: center;
@@ -80,16 +80,18 @@ img {
 
 .search-contact {
     display: flex;
-    
+
+
 
 }
 
 
 .header-logo {
-
     color: #1E0606;
+    width: 100px;
+    min-width: 100px;
+    height: 52px;
 }
-
 .nav-item {
     font-style: normal;
     font-weight: normal;
@@ -100,7 +102,6 @@ img {
 }    
 
 .nav-item-contact {
-
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -108,7 +109,7 @@ img {
     line-height: 19px;
     color: #1E0606;
 }
-   
+
 .pourple-link {
     font-family: Open Sans;
     font-style: normal;
@@ -117,20 +118,78 @@ img {
     line-height: 22px;
     color: #FFFFFF;
     background-color: #000000;
-}
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    min-height: 40px;
+    padding: 9px;
+    
 
+
+    
+}
 .poster-title {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 110%;
-    color: #1E0606;
+    color: #1E0606;  
+    margin-top: 0;
+    
+}
+.poster-down {
+    background-image: url(pictures/poster\ down.png);
+    
+    
+width: 1180px;
+height: 39px;
+left: 110px;
+top: 603px;
+
+background: #C29974;
+
 
 }
+
+.poster {
+    background-image:url(pictures/background\ first.png) ;
+    width: 1180px;
+    height: 411px;
+    left: 110px;
+    top: 231px;
+    
+    padding-left: 133px;
+
+   
+   
+
+
+}
+
+.poster-picture {
+    display: flex;
+    position: absolute;
+    width: 635.49px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+    
+}
+
 .partners-list {
     list-style-type: none;
     display:flex;
     justify-content: space-between;
     padding: 0;
+}
+.Designed-in-Slovenia {
+    font-family: Crimson Text;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+
 }

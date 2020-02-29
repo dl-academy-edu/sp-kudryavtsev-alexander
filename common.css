@@ -193,3 +193,18 @@ font-size: 20px;
 line-height: 25px;
 
 }
+.category-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+}
+.category {
+    background: #DBE4DB;
+}
+.hidden {
+    display: none
+}

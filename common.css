@@ -1,6 +1,7 @@
 body { 
     
     font-family: 'Open Sans', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
  margin: 0; 
 }
 
@@ -255,5 +256,86 @@ margin-right: 6px;
 
 .HZ {
     margin-left: 20px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
     
+}
+
+.later {
+    position: relative;
+}
+
+.lattery {
+    position: relative;
+    
+
+}
+.lattery-zz{
+    /* position: absolute;
+    text-align: center;
+	top		: 100px;
+	left		: 0;
+    width		: 100%; */
+    position: absolute;
+left: 22.14%;
+right: 22.5%;
+top: 38.15%;
+bottom: 38.15%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.about-purchase {
+  display: flex;
+  margin-top: 94px;
+
+}
+
+.woman {
+    
+    margin-left: 120px;
+    
+   
+}
+
+.button-delivery {
+    
+  
+}
+
+
+.delivery-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+
+
+text-transform: uppercase;
+
+
+
+color: #1E0606;
+}
+
+.footer {
+    display: flex;
+    background: #434343;
+    
+}
+
+.footer-gray {
+    display: flex;
+    justify-content: space-between;
 }

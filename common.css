@@ -37,9 +37,8 @@ img {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1220px;
-    padding: 50px 20px;
-
+    max-width: 1180px;
+   
 
 }
 .header {
@@ -130,6 +129,15 @@ img {
 
     
 }
+
+
+.first-conteiner {
+    padding: 130px;
+    margin-top: 130px;
+}
+
+
+
 .poster-title {
     font-family: "Montserrat";
     font-style: normal;
@@ -141,27 +149,36 @@ img {
     
 }
 .poster-down {
-    background-image: url(pictures/poster\ down.png);
-    
     
 width: 1180px;
 height: 39px;
-left: 110px;
-top: 603px;
+
+
 
 background: #C29974;
 
 
 }
+.poster-mini {
+    font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
 
 .poster {
-    background-image:url(pictures/background\ first.png) ;
-    width: 1180px;
-    height: 411px;
-    left: 110px;
-    top: 231px;
     
-    padding-left: 133px;
+    
+   
+    
+    background: #EEE4DB;
 
    
    
@@ -171,11 +188,12 @@ background: #C29974;
 
 .poster-picture {
     display: flex;
+    
     position: absolute;
-    width: 635.49px;
-    height: 461px;
-    left: 555px;
-    top: 142px;
+width: 635.49px;
+height: 461px;
+left: 555px;
+top: 142px;
     
 }
 
@@ -191,6 +209,7 @@ font-style: italic;
 font-weight: normal;
 font-size: 20px;
 line-height: 25px;
+margin-top: 0;
 
 }
 .category-title {
@@ -201,10 +220,40 @@ font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
 color: #1E0606;
+
+
+}
+
+.category-pictyre {
+    list-style-type: none;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   
+
 }
 .category {
-    background: #DBE4DB;
+    background-color: aqua;
 }
 .hidden {
     display: none
+}
+.arrows {
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow {
+    width: 37px;
+height: 37px;
+padding: 0;
+border: 0;
+margin-right: 6px;
+
+}
+
+.HZ {
+    margin-left: 20px;
+    
 }

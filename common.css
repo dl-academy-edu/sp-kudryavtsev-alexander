@@ -2,6 +2,7 @@ body {
     
     font-family: 'Open Sans', 'sans-serif';
     font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Crimson Text', 'serif';
  margin: 0; 
 }
 
@@ -135,6 +136,7 @@ img {
 .first-conteiner {
     padding: 130px;
     margin-top: 130px;
+    position: relative;
 }
 
 
@@ -193,9 +195,14 @@ text-transform: uppercase;
     position: absolute;
 width: 635.49px;
 height: 461px;
-left: 555px;
-top: 142px;
+left: 448px;
+top: 17px;
     
+}
+
+.partners {
+    margin-top: 91px;
+    margin-bottom: 90px;
 }
 
 .partners-list {
@@ -204,6 +211,84 @@ top: 142px;
     justify-content: space-between;
     padding: 0;
 }
+
+.d-l-k {
+ display: flex;
+ justify-content: space-around;
+}
+
+.design-Life-kids {
+    
+    
+    width: 357px;
+height: 47px;
+left: 140px;
+top: 2043px;
+
+/* Title two */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Black */
+
+color: #1E0606;
+}
+
+.design-Life-kids-smalll {
+    width: 483px;
+height: 66px;
+left: 740px;
+top: 2110px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+/* Black */
+
+color: #1E0606;
+}
+
+.about-Us {
+    width: 85px;
+height: 33px;
+left: 140px;
+top: 2100px;
+
+font-family: Crimson Text;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #1E0606;
+}
+
+.design-Life-kids-small {
+    width: 483px;
+height: 67px;
+left: 140px;
+top: 2143px;
+
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+
+
 .Designed-in-Slovenia {
     font-family: Crimson Text;
 font-style: italic;
@@ -275,15 +360,11 @@ color: #1E0606;
 
 }
 .lattery-zz{
-    /* position: absolute;
-    text-align: center;
-	top		: 100px;
-	left		: 0;
-    width		: 100%; */
+   
     position: absolute;
 left: 22.14%;
 right: 22.5%;
-top: 38.15%;
+top: 27.15%;
 bottom: 38.15%;
 font-family: Montserrat;
 font-style: normal;
@@ -310,8 +391,11 @@ color: #FFFFFF;
 
 .button-delivery {
     
-  
+    display: flex;
+    flex-direction: column;
+    border: 0;
 }
+  
 
 
 .delivery-title {
@@ -320,13 +404,46 @@ font-style: normal;
 font-weight: bold;
 font-size: 38px;
 line-height: 46px;
-
-
 text-transform: uppercase;
+color: #1E0606;
+margin-top: 30px;
+}
+
+.button-delivery-first {
+    font-family:'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+width: 97px;
+height: 33px;
+left: 710px;
+top: 1392px;
+color: #1E0606;
+margin-bottom: 22px;
+
+
+}
+
+.woman-text {
+    width: 480px;
+
+left: 710px;
+top: 1510px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
 
 
 
 color: #1E0606;
+}
+
+.woman-button {
+margin-top: 26px;
 }
 
 .footer {

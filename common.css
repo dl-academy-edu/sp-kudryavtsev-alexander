@@ -66,10 +66,6 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 
-.header-list-link {
-    display: flex;
-    align-items: center;
-}
 
 .header-list-link-conact {
     display: flex;
@@ -206,7 +202,7 @@ text-transform: uppercase;
 width: 635.49px;
 height: 461px;
 left: 448px;
-top: 17px;
+bottom: 0%;
     
 }
 
@@ -339,6 +335,7 @@ font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
 color: #1E0606;
+margin-top: 90px;
 
 
 }
@@ -348,6 +345,7 @@ color: #1E0606;
    padding: 0;
    display: flex;
    justify-content: space-between;
+   margin-top: 30px;
    
 
 }
@@ -391,6 +389,23 @@ color: #1E0606;
     
 
 }
+
+.lattery-a {
+    position: absolute;
+    left: 28.14%;
+    right: 22.5%;
+    top: 24.15%;
+    transform: translate(10%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .lattery-zz{
    
     position: absolute;
@@ -447,7 +462,7 @@ font-style: italic;
 font-weight: normal;
 font-size: 26px;
 line-height: 32px;
-width: 97px;
+
 height: 33px;
 left: 710px;
 top: 1392px;

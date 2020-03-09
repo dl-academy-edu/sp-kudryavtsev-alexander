@@ -18,7 +18,7 @@
       <nav class="header-nav">
         <ul class="header-list-link"> 
          <li><a class="nav-item" href="#">Blog</a></li>
-         <li><a class="nav-item" href="#">Catalog</a></li>
+         <li><a class="nav-item" href="index2.html">Catalog</a></li>
          <li><a class="nav-item" href="#">About Us</a></li>
         </ul>
        <div class ="search-contact"> 
@@ -174,7 +174,7 @@
         <h3 class="footer-nav">Connect</h3>       
         <img class="line" src="pictures/Line.png">
          <form class="email-submit" action="email">
-          <input class="email" type="email" name="email" id="#">
+          <input class="email" type="email" name="email" id="#" placeholder="email">
           <button class="submit" type="submit"> join </button>  
          </form>
          <ul class="footer-spisok socail-li">
@@ -241,14 +241,31 @@
           </ul>
          </div>
         
-
       <p class="footer-spisok footer-center">Copyright © 2018 Dlk • Design Life Kids  </p>  
     
       <a class="web-design footer-right" href="#"> Web Design — Direct Line Development </a>   
-     
-       
+          
       </div>  
     </div>
     </footer>
+    <form action="https://form-data-dl.herokuapp.com/api/messages" method="post">
+      <label for="form-name">Name</label>
+      <input id="form-name" tupe="text" name="name">
+
+      <label for="form-name">Phone</label>
+      <input id="form-name" tupe="text" name="phone">
+
+      <label for="form-name">email</label>
+      <input id="form-name" tupe="email" name="email">
+
+      <label for="form-name">Message</label>
+      <textarea name="message"  id="form-message" tupe="text" ></textarea>
+
+      <input type="checkbox" name="accept" id="">
+
+      <button class="pourple-link" type="submit">SUBMIT</button>
+      <button type="button">X</button>
+    </form>
+
   </body>
 </html> 

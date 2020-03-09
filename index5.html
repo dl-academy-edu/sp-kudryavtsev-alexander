@@ -10,6 +10,7 @@
   
   <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="common2.css">
+  <link rel="stylesheet" href="common5.css">
   <link rel="stylesheet" href="style.css">
   <title>DLK</title>
 </head>
@@ -34,7 +35,7 @@
     </nav>
   </header>
   <section class="category-products container">
-    <h3 class="category-title-second container"> Category Products </h3>
+    <h3 class="category-title-second container"> Contact Us </h3>
   </section>
   <section class="container vector-button">
     <div class="">
@@ -43,63 +44,40 @@
       <li>
       <img class="vector" src="pictures/Vector (Stroke).png" alt="right">
       </li>
-      <li><a class="nav-vector-button-catalog" href="#">Catalog</a></li>
+      <li><a class="nav-vector-button-catalog" href="#">Contact Us</a></li>
     </ul>      
     </div>
   </section>
-  <section class="container image-category">
-    
-      <li class="lattery">      
-        <img class="category" src="pictures/APPAREL KIDS 2.png" alt="APPAREL KIDS">
-        <h4 class="lattery-a">  apparel <br> kids  </h4>        
-      </li>
-      <li class="lattery">        
-          <img class="category" src="pictures/HOLIDAY SHOP2.jpg" alt="HOLIDAY SHOP">
-          <h4 class="lattery-zz"> holiday shop </h4>        
-      </li>
-      <li class="lattery">        
-          <img class="category" src="pictures/TOYS 2.png" alt="TOYS">
-          <h4 class="lattery-zz"> TOYS </h4>        
-      </li>
-    
-      <li class="lattery">        
-        <img class="category" src="pictures/ACCESSORIES2.jpg" alt="ACCESSORIES">
-        <h4 class="lattery-zz">  ACCESSORIES </h4>        
-      </li>
-      <li class="lattery">        
-        <img class="category" src="pictures/sale.png" alt="ACCESSORIES">
-        <h4 class="lattery-zz">  sale </h4>        
-      </li>
-      <li class="lattery">        
-        <img class="category" src="pictures/apparel adults.png" alt="ACCESSORIES">
-        <h4 class="lattery-zz">  apparel adults </h4>        
-      </li>
-    
+  <main>
+    <div class="container contact-us-box"> 
+      <div>  
+        <!-- <h1>Contact Us</h1> -->
+        <form class="modal-window" action="https://form-data-dl.herokuapp.com/api/messages" method="post">
+          <label class="form-label" for="form-name">Name</label>
+          <input class="form-input" id="form-name" tupe="text" name="name" placeholder="Ivan Ivanov">
 
-  </section>
+          <label class="form-label" for="form-name">Phone</label>
+          <input class="form-input" id="form-name" tupe="text" name="phone">
 
-  <section class="categore-products second-conteiner container">
-    <h3 class="product-description">  Product Description </h3>      
-      <div class="product-description-text-head">
-        <div class="product-description-text">
-          <p>
-            Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.        
-          </p>
-        </div>  
-        <div class="product-description-text">
-          <p>
-            A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.   
-          </p>
-        </div>
-        <div class="product-description-text">
-          <p>
-            The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.   
-          </p>   
-      </div>   
+          <label class="form-label" for="form-name">email</label>
+          <input class="form-input" id="form-name" tupe="email" name="email">
 
-  </section>
+          <label class="form-label" for="form-name">Message</label>
+          <textarea class="form-input" name="message"  id="form-message" tupe="text" ></textarea>
 
+          <input type="checkbox" name="accept" id="">
 
+          <button class="pourple-link" type="submit">SUBMIT</button>
+          <button type="button">X</button>
+        </form>
+      </div>
+      <div>
+        <p class="Our-support">Our support team are on-hand to assist with any issues you are experiencing.</p>
+        <p class="Our-support">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+        <p class="An-expert">An expert is waiting to help you!</p>
+      </div>
+    </div> 
+  </main>
   <footer class="footer">
     <div class="container">
      <div class="footer-gray container">

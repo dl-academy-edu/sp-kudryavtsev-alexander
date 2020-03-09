@@ -53,6 +53,8 @@ opacity: 0.5;
 .image-category {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -91,5 +93,6 @@ opacity: 0.5;
 
 .second-conteiner {
     width: 680px;
+    margin-bottom: 60px;
     
 }

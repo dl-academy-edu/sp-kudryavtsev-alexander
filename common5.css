@@ -1,0 +1,27 @@
+.contact-us-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.An-expert {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+
+
+    text-transform: uppercase;
+
+    color: #C29974;
+}
+
+.Our-support {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}

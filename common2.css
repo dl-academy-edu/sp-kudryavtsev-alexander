@@ -61,7 +61,7 @@ opacity: 0.5;
 
 .product-description {
     display: flex;
-    justify-content: center;
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
@@ -95,4 +95,17 @@ opacity: 0.5;
     width: 680px;
     margin-bottom: 60px;
     
+}
+
+.three {
+    margin-right: 300px;
+}
+
+.fourth {
+    margin-left: 200px;
+}
+
+.last-image {
+
+    margin-right: 100px;
 }

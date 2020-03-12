@@ -1,0 +1,82 @@
+.body {
+    font-family:'Roboto','sans-serif';
+    font-family:'Montserrat','sans-serif';
+}
+
+.august {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #818181;
+
+mix-blend-mode: normal;
+}
+.fastest {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+
+
+color: #1E0606;
+}
+
+.direct {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+
+
+color: #1E0606;
+}
+
+.mini-mini {
+   display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.conteiner-mini {
+
+    flex-wrap: wrap;
+    width: 380px;
+}
+.pages {
+
+    margin-top: 50px
+}
+
+.pages-pages {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.arrow-4-pages {
+    border: 0;
+    background: none;
+    
+}
+.arrows-l-r {
+    width: 13px;
+}
+.number {
+    border: 0;
+    background: none;
+    
+}
+.button-number {
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+}

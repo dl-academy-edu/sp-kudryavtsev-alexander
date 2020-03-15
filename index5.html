@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,600i,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="common2.css">
+  <link rel="stylesheet" href="common5.css">
+  <link rel="stylesheet" href="style.css">
+  <title>DLK</title>
+</head>
+<body>
+  <header class="main-header header container">
+    <a href="#">
+      <img class="header-logo" src="pictures/DLK.png" alt="logo">
+     </a>
+    <nav class="header-nav">
+      <ul class="header-list-link"> 
+       <li><a class="nav-item" href="#">Blog</a></li>
+       <li><a class="nav-item" href="index2.html">Catalog</a></li>
+       <li><a class="nav-item" href="#">About Us</a></li>
+      </ul>
+     <div class ="search-contact"> 
+      <a href="#" class="header-list-link">
+        <img class="header-list-link-conact" src="pictures/XMLID 1397.png" alt="search">
+      </a>
+      <a class="nav-item-contact" href="#">Contact Us</a> 
+     </div>       
+      
+    </nav>
+  </header>
+  <section class="category-products container">
+    <h3 class="category-title-second container"> Contact Us </h3>
+  </section>
+  <section class="container vector-button">
+    <div class="">
+    <ul class="vector-button-head">
+      <li><a class="nav-vector-button-home" href="index.html">Home</a></li>
+      <li>
+      <img class="vector" src="pictures/Vector (Stroke).png" alt="right">
+      </li>
+      <li><a class="nav-vector-button-catalog" href="#">Contact Us</a></li>
+    </ul>      
+    </div>
+  </section>
+  <main>
+    <div class="container contact-us-box"> 
+      <div class="container-left">  
+        <!-- <h1>Contact Us</h1> -->
+        <form class="modal-window" action="https://form-data-dl.herokuapp.com/api/messages" method="post">
+         
+          <div class="form-row-end">
+            <label class="form-label-end" for="form-name">Name</label>
+            <input class="form-input-end" id="form-name" tupe="text" name="name" placeholder="Ivan Ivanov">
+          </div>
+          <div class="form-row-end">
+            <div class="form-row-end-290">
+              <label class="form-label-end" for="form-name">Phone</label>
+              <input class="form-input-end" id="form-name" tupe="text" name="phone">
+            </div> 
+            <div class="form-row-end-290"> 
+              <label class="form-label-end" for="form-name">Email</label>
+              <input class="form-input-end" id="form-name" tupe="email" name="email">
+            </div>
+          </div>
+          
+          <div class="form-row-end">
+            <label class="form-label-end" for="form-name">Message</label>
+            <textarea class="form-input-end" name="message"  id="form-message" tupe="text" ></textarea>
+          </div>
+          <div class="by-click-on">
+            <input type="checkbox" name="accept" id="">
+            <p class="click-true">By clicking on the button, you consent to the processing of your personal data</p>
+          </div>
+          
+
+          <button class="pourple-link" type="submit">SUBMIT</button>
+          
+        </form>
+      </div>
+      <div class="contaier-right">
+        <p class="Our-support">Our support team are on-hand to assist with any issues you are experiencing.</p>
+        <p class="Our-support">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+        <p class="An-expert">An expert is waiting to help you!</p>
+      </div>
+    </div> 
+  </main>
+  <footer class="footer">
+    <div class="container">
+     <div class="footer-gray container">
+      <section>
+       <h3 class="footer-nav">Navigation</h3>
+        <img class="line" src="pictures/Line.png">
+        <nav>
+         <ul class="footer-spisok">
+          <li class="margin"><a class="about-us footer-spisok" href="#"> About Us </a></li>
+          <li class="margin"><a class="blog footer-spisok" href="#"> Blog </a></li>
+          <li class="margin"><a class="design-services footer-spisok" href="#">Design Services </a></li>
+          <li class="margin"><a class="featured-on footer-spisok" href="#"> Featured On </a></li>
+          <li class="margin"> <a class="2018-holiday-catalog footer-spisok" href="#"> 2018 Holiday Catalog </a></li>
+          <li class="margin"><a class="shop-by-designer footer-spisok" href="#"> Shop By Designer </a></li>
+        
+         </ul>
+         
+         
+        </nav>
+        
+      </section>
+      
+     <section>
+      <h3 class="footer-nav">Customer Information</h3>
+      <img class="line" src="pictures/Line.png">
+       <ul class="footer-spisok">        
+        <li class="margin"><a class="about-us footer-spisok" href="#">Contact Us </a></li>
+        <li class="margin"><a class="blog footer-spisok" href="#"> Sale Exclusions </a></li>
+        <li class="margin"><a class="design-services footer-spisok" href="#">Shipping & Returns </a></li>
+        <li class="margin"><a class="featured-on footer-spisok" href="#"> Terms & Conditions </a></li>
+        <li class="margin"><a class="2018-holiday-catalog footer-spisok" href="#"> Privacy Policy</a></li>
+        <li class="margin"> <a class="shop-by-designer footer-spisok" href="#"> Search </a></li>
+       </ul> 
+        
+     </section>    
+     <section> 
+      <h3 class="footer-nav">Connect</h3>       
+      <img class="line" src="pictures/Line.png">
+       <form class="email-submit" action="email">
+        <input class="email" type="email" name="email" id="#">
+        <button class="submit" type="submit"> join </button>  
+       </form>
+       <ul class="footer-spisok socail-li">
+        <li>
+          <button class="link-button">
+          <img class="pertner-item" src="pictures/Facebook.png" alt="star">
+          </button>
+        </li>
+        <li>
+          <button class="link-button">
+          <img class="pertner-item" src="pictures/Twitter.png" alt="star">
+          </button>
+        </li>
+        <li>
+          <button class="link-button">
+          <img class="pertner-item" src="pictures/Pinterest.png" alt="star">
+          </button>
+        </li>
+        <li>
+          <button class="link-button">
+          <img class="pertner-item" src="pictures/Instagram.png" alt="star">
+          </button>
+        </li>
+        
+       </ul>       
+         
+     </section> 
+     
+    </div>
+
+    <img class="line" src="pictures/Line big.png">
+
+
+    <div class="footer-gray second-footer">
+      
+      <div class="rating">
+        <p class="rating-title footer-spisok">Company Rating</p>
+        <ul class="rating-buttons footer-spisok">
+          <li>
+            <button class="rating-button">
+            <img class="image-star" src="pictures/Star.png" alt="star">
+            </button>
+          </li>
+          <li>
+            <button class="rating-button">
+            <img class="image-star" src="pictures/Star.png" alt="star">
+            </button>
+          </li>
+          <li>
+            <button class="rating-button">
+            <img class="image-star" src="pictures/Star.png" alt="star">
+            </button>
+          </li>
+          <li>
+            <button class="rating-button">
+            <img class="image-star" src="pictures/Star.png" alt="star">
+            </button>
+          </li>
+          <li>
+            <button class="rating-button">
+            <img class="image-star" src="pictures/Star.png" alt="star">
+            </button>
+          </li>
+        </ul>
+       </div>
+      
+
+    <p class="footer-spisok footer-center">Copyright © 2018 Dlk • Design Life Kids  </p>  
+  
+    <a class="web-design footer-right" href="#"> Web Design — Direct Line Development </a>   
+   
+     
+    </div>  
+  </div>
+  </footer>
+</body>
+</html> 
